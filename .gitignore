@@ -4,3 +4,6 @@ data/
 submission*
 *.Rproj
 .Rproj.user
+logs/
+submit/
+
