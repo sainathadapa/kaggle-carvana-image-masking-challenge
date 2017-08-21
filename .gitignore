@@ -6,4 +6,5 @@ submission*
 .Rproj.user
 logs/
 submit/
+.kaggle-cli
 
