@@ -7,4 +7,5 @@ submission*
 logs/
 submit/
 .kaggle-cli
+*.pkl
 
