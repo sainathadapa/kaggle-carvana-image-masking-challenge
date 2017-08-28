@@ -8,4 +8,5 @@ logs/
 submit/
 .kaggle-cli
 *.pkl
+*.pklz
 
