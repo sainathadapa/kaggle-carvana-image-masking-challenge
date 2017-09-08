@@ -9,4 +9,4 @@ submit/
 .kaggle-cli
 *.pkl
 *.pklz
-
+*.dat
