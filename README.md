@@ -1,0 +1,8 @@
+- In notebooks 1 to 4, U-Net based models are trained with increasing resolution from 128x128 to 1024x1024. The number of layers also been increased as the resolution increased. The improvement in loss and Dice coefficient from 128 to 256, and 256 to 512 model has been substantial. The 512 and 1024 models performed almost similarly. 512 model got the best Public leaderboard score, among these four models, with the Dice coefficient being 0.9958. 
+- A small analysis to see if tuning the threshold value makes any difference to the score is performed in Notebook 7.
+- In Notebook 8, using the 256 model, bounding boxes are first visualized, and then calculated for both train and test sets.
+- Notebook 9: Using the bounding boxes calculated in the previous notebook, the original images are first cut to the bounding box size. This is results in smaller images than the original resolution of 1918x1280, but still greater than 1024x1024. So each image is cut into two pices, each of resolution 1024x1024, such that there is an overlap between them. This way, the model can be trained at full resolution. The Public leaderboard score for this model was 0.9967.
+- 512, 1024 and the full resolution models are compared in Notebook 10. Also, full resolution model's worst predictions are visualized.
+- Notebook 11: Ensemble of 512 and full resolution model, by taking average of both models' predictions. This didn't increase the LB score.
+- Notebook 12: Model based on the One Hundred Layers Tiramisu architecture. Even with much less parameters than the UNet model, and with just 256x256 resolution, each epoch took much more time to complete. Didn't fully trained the model.
+- In Notebook 13, the boundary boxes are analysed again.
