@@ -5,4 +5,7 @@
 - 512, 1024 and the full resolution models are compared in Notebook 10. Also, full resolution model's worst predictions are visualized.
 - Notebook 11: Ensemble of 512 and full resolution model, by taking average of both models' predictions. This didn't increase the LB score.
 - Notebook 12: Model based on the One Hundred Layers Tiramisu architecture. Even with much less parameters than the UNet model, and with just 256x256 resolution, each epoch took much more time to complete. Didn't fully trained the model.
-- In Notebook 13, the boundary boxes are analysed again.
+- In Notebook 13, the boundary boxes are analysed further.
+- Notebook 14: Model trained on the full resolution (~1918x1280), with additional depth layer being added to the input. This layer is the output from the 512 model, resized to the full resolution. The accuracy/loss didn't improve. 
+- UNet's VGG style Conv-BN-Act layers are replaced by InceptionV3 style blocks in Notebook 16. The accuracy/loss didn't improve.
+
