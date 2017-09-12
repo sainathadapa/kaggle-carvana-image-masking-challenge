@@ -1,3 +1,6 @@
+This repository contains my personal code for the Kaggle competition - [Carvana Image Masking Challenge](https://www.kaggle.com/c/carvana-image-masking-challenge).
+
+Description of things that I have tried, in chronological order:
 - In notebooks 1 to 4, U-Net based models are trained with increasing resolution from 128x128 to 1024x1024. The number of layers also been increased as the resolution increased. The improvement in loss and Dice coefficient from 128 to 256, and 256 to 512 model has been substantial. The 512 and 1024 models performed almost similarly. 512 model got the best Public leaderboard score, among these four models, with the Dice coefficient being 0.9958. 
 - A small analysis to see if tuning the threshold value makes any difference to the score is performed in Notebook 7.
 - In Notebook 8, using the 256 model, bounding boxes are first visualized, and then calculated for both train and test sets.
