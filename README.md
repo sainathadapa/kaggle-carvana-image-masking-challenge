@@ -22,3 +22,5 @@ This repository contains my personal code for the Kaggle competition - [Carvana 
 | [20-full-res-model-all-angles-horizontal-cut-no-bbox.ipynb](https://nbviewer.jupyter.org/github/sainathadapa/kaggle-carvana-image-masking-challenge/blob/master/20-full-res-model-all-angles-horizontal-cut-no-bbox.ipynb) | The original 1918x1280 image is cut into two halves horizontally (with some overlap), each with size 1920x768. | - | - | 0.9967 |
 | [21-ensemble.ipynb](https://nbviewer.jupyter.org/github/sainathadapa/kaggle-carvana-image-masking-challenge/blob/master/21-ensemble.ipynb) | Ensemble of models from Notebooks 19 and 20 (averaged the predictions) | - | - | 0.9968 |
 | [22-unet-different-initial-filters.ipynb](https://nbviewer.jupyter.org/github/sainathadapa/kaggle-carvana-image-masking-challenge/blob/master/22-unet-different-initial-filters.ipynb) | U-net architecture with more filters in the first layer | - | - | - |
+
+The Private Leaderboard score for the Ensemble model was 0.9965.
